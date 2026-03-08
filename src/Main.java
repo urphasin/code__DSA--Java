@@ -5,8 +5,9 @@ void main() {
     //noinspection unused
     int[] rnos2 = {1, 2, 3, 4, 5};
 
-    pattern1(6);
+    pattern1(5);
     pattern2(5);
+    pattern3(5);
 
 }
 
@@ -26,6 +27,18 @@ static void pattern2(int n) {
     System.out.println("pattern 2");
     for(int row = 1; row <= n; ++row) {
         for(int col = 1; col <= 5; ++col) {
+            System.out.print("* ");
+        }
+        System.out.println();
+    }
+    System.out.println();
+}
+
+@SuppressWarnings("SameParameterValue")
+static void pattern3(int n) {
+    System.out.println("Patter 3");
+    for(int row = 1; row <= n; row++) {
+        for (int col = 1; col <= n-row; col++) {
             System.out.print("* ");
         }
         System.out.println();

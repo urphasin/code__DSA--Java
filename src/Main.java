@@ -14,3 +14,7 @@ static void pattern1(int n) {
         System.out.println();
     }
 }
+
+static void pattern2(int n) {
+    f
+}

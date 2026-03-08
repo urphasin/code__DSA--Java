@@ -38,7 +38,7 @@ static void pattern2(int n) {
 static void pattern3(int n) {
     System.out.println("Patter 3");
     for(int row = 1; row <= n; row++) {
-        for (int col = 1; col <= n-row; col++) {
+        for (int col = 1; col <= 14-row+1; col++) { // since row starts from 1 20-1 is 19 so we compensate like we are starting from row = 0
             System.out.print("* ");
         }
         System.out.println();

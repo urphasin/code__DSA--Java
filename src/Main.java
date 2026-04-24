@@ -7,7 +7,7 @@ void main() {
 
     pattern1(5);
     pattern2(5);
-    pattern3(5);
+    pattern3(5); 
 
 }
 
